@@ -23,7 +23,7 @@ public class Controller {
 
     for (i = 0; i < 4; i++) {
       String enter = reader.readLine();
-      int number = Integer.parseInt(enter);
+
       if (enter.equals("1")) {
         studentService.showStudents();
       }
