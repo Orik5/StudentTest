@@ -9,7 +9,12 @@ package com.dvoretskyi;// Please, do not use internet or any other sources of in
 //   Popova Valeria Mathematics-1 Physics-2 Astronomy-0 History-1 Ethics-3 (do not display the subject info if there is no data about it)
 
 import com.dvoretskyi.controller.Controller;
+import com.dvoretskyi.entity.Mark;
+import com.dvoretskyi.entity.Student;
+import com.dvoretskyi.entity.Subject;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Test {
 
@@ -19,13 +24,7 @@ public class Test {
     Controller controller = new Controller();
     controller.showMenu();
 
-  List<Mark> markList = new ArrayList();
-    Mark mark = new Mark();
 
-    mark.setStudent(new Student("dfdfs", "sdsd"));
-    mark.setSubject(new Subject("", true));
-    mark.setRank(2);
-    markList.add(mark);
 
   }
 }
